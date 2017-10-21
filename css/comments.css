@@ -1,0 +1,56 @@
+body{
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.comment{
+}
+
+.comment img {
+    width: 30px;
+}
+
+/*
+.comment h4 span{
+    color: gray;
+}
+*/
+
+.comment span{
+    color: gray;
+}
+
+.comment button{
+    background-color: black;
+    color: white;
+    border: none;    
+}
+
+.comment button:hover{
+    background-color: white;
+    color   : black;
+}
+
+.comment button:focus{
+    background-color: blue;
+    color   : black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    background-color: black;
+    color: red;
+}
+
+a:active{
+    background-color: pink;
+    color: red;
+}
+
+a:focus{
+    background-color: green;
+    color: red;
+}
+

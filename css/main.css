@@ -1,3 +1,20 @@
 body{
     background-color: red;
 }
+
+/*selector por identificador*/
+#nat{
+    color: green;
+}
+
+/*Identidicador por clase*/
+.person{
+    color: blue;
+}
+
+/**/
+li.person{
+    color: orange;
+}
+
+
