@@ -1,20 +1,58 @@
+/*
 body{
     background-color: red;
-}
+}*/
 
 /*selector por identificador*/
-#nat{
+/*#nat{
     color: green;
-}
+}*/
 
 /*Identidicador por clase*/
-.person{
+/*.person{
     color: blue;
-}
+}*/
 
 /**/
-li.person{
+/*li.person{
     color: orange;
+}*/
+
+body{
+    background-color: #2E4B51;
+    color: #fff
+}
+
+table{
+    width: 100%;
+    background-color: #E5D5A4;
+}
+
+thead{
+    background-color: #BAA876;
+}
+
+/*Sintaxis de seudo clases*/
+tr:nth-child(odd){
+    background-color: #B7D5BB;
+}
+
+/*Sintaxis de seudo clases*/
+tr:nth-child(even){
+    background-color: green;
+}
+
+/*Sintaxis de seudo clases*/
+th:nth-child(odd){
+    background-color: #B7D5BB;
+}
+
+/*Sintaxis de seudo clases*/
+th:nth-child(even){
+    background-color: green;
 }
 
 
+tbody tr:nth-child(even) a{
+    background-color: red
+}
